@@ -1,0 +1,63 @@
+.parentBox {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../_assets//pngs/heroHome.png");
+  height: 720px;
+}
+
+.parent {
+  padding: 0px 90px;
+  margin-top: 300px;
+}
+
+.heddingImage {
+  width: 533px;
+  height: 87px;
+  margin-bottom: 20px;
+}
+
+.boxParagraph {
+  max-width: 640px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+  .parentBox {
+    height: 534px;
+  }
+
+  .parent {
+    padding: 0px 50px;
+    margin-top: 186px;
+  }
+
+  .heddingImage {
+    width: 450px;
+    height: auto;
+  }
+
+  .boxParagraph {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .parentBox {
+    height: 500px;
+  }
+  .parent {
+    padding: 0px 30px;
+    margin-top: 156px;
+  }
+
+  .heddingImage {
+    width: 290px;
+    height: auto;
+  }
+
+  .boxParagraph {
+    max-width: 290px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.parentNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 90px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 25px;
+  font-size: 12px;
+  font-weight: 300px;
+  line-height: 18px;
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgba(167, 164, 173, 0.1);
+  font-size: 11px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.hamBurger {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .parentNav {
+    padding: 22px 50px;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .hamBurger {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .parentNav {
+    padding: 25px 30px;
+  }
+}
