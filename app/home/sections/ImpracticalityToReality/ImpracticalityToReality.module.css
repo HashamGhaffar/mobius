@@ -6,7 +6,7 @@
 .parentImgTypo {
   background-image: url(../../../_assets//pngs/plainGrayBackground.png);
   background-repeat: no-repeat;
-  background-size: 100% 87%;
+  background-size: 100% 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@
 @media (max-width: 550px) {
   .parentImgTypo {
     background-size: 100% 45%;
-    padding: 53px 50px 0px 30px;
+    padding: 53px 50px 70px 30px;
     flex-direction: column;
     row-gap: 20px;
   }

@@ -1,15 +1,7 @@
 import Navbar from "./navbar/Navbar";
 import Paragraph20px from "./paragraph/paragraph20px/paragraph20px";
 import Paragraph22px from "./paragraph/paragraph22px/paragraph22px";
-import Paragraph24px from "./paragraph/paragraph24px/paragraph24px";
 import Hedding38px from "./hedding/hedding38px/Hedding38px";
 import Button from "./button/Button";
 
-export {
-  Navbar,
-  Button,
-  Paragraph20px,
-  Paragraph22px,
-  Paragraph24px,
-  Hedding38px,
-};
+export { Navbar, Paragraph20px, Button, Paragraph22px, Hedding38px };
