@@ -1,0 +1,23 @@
+.parentBox {
+  padding: 120px 60px;
+  align-items: center;
+  background: linear-gradient(180deg, #151414 0%, rgba(0, 0, 0, 0) 66.61%);
+}
+
+.textCenter {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .parentBox {
+    padding: 75px 30px;
+    background: linear-gradient(180deg, #2d2c2c 0%, rgba(0, 0, 0, 0) 66.61%);
+  }
+}
+
+@media (max-width: 550px) {
+  .parentBox {
+    padding: 30px 30px;
+    background: linear-gradient(180deg, #2d2c2c 0%, rgba(0, 0, 0, 0) 66.61%);
+  }
+}

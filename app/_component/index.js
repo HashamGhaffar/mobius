@@ -4,6 +4,7 @@ import Paragraph22px from "./paragraph/paragraph22px/paragraph22px";
 import Paragraph24px from "./paragraph/paragraph24px/paragraph24px";
 import Hedding38px from "./hedding/hedding38px/Hedding38px";
 import Button from "./button/Button";
+import RecentProjectsCard from "./recentProjectsCard/RecentProjectsCard";
 
 export {
   Navbar,
@@ -12,4 +13,5 @@ export {
   Paragraph22px,
   Paragraph24px,
   Hedding38px,
+  RecentProjectsCard,
 };
