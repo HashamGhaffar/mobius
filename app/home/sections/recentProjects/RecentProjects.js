@@ -9,7 +9,7 @@ import pngs from "@/app/_assets/pngs";
 
 import {
   Paragraph20px,
-  Hedding38px,
+  Hedding38px, Typography,
   RecentProjectsCard,
 } from "../../../_component/index";
 
@@ -48,13 +48,13 @@ export default function RecentProjects() {
     <>
       <section className={styles.parentBox}>
         <div className={styles.textCenter}>
-          <Paragraph20px typography="Projects" />
+          <Typography variant="tertiaryTypography" typography="Projects" />
         </div>
         <div
           className={styles.textCenter}
           style={{ marginTop: "36px", marginBottom: "70px" }}
         >
-          <Hedding38px typography="Here are our some recent Projects" />
+          <Typography variant="tertiaryHeading" typography="Here are our some recent Projects" element="h1" textColor="#FFFFFF" />
         </div>
         <Slider centerMode={true} centerPadding="20px" {...settings}>
           <div>

@@ -6,9 +6,7 @@ import pngs from "@/app/_assets/pngs";
 import svgs from "@/app/_assets/svgs";
 import styles from "./OurServices.module.css";
 import {
-  Paragraph20px,
-  Paragraph24px,
-  Hedding38px,
+  Typography
 } from "../../../_component/index";
 
 export default function OurServices() {
@@ -24,10 +22,10 @@ export default function OurServices() {
         />
         <div>
           <div className={styles.ourServices}>
-            <Paragraph20px typography="Our Services" />
+            <Typography typography="Our Services" variant="tertiaryTypography" />
           </div>
           <div className={styles.hedding}>
-            <Hedding38px typography="We Provide 3D Services" />
+            <Typography typography="We Provide 3D Services" variant="tertiaryHeading" textColor="#ffffff" />
           </div>
 
           <div className={styles.horizontalLine}>
@@ -43,7 +41,7 @@ export default function OurServices() {
             />
             <div>
               <div className={`${styles.mb12} ${styles.flex}`}>
-                <Paragraph24px typography="3D Modeling" textColor="#ffffff" />
+                <Typography typography="3D Modeling" variant="primaryTypography" textColor="#ffffff" />
                 <Image
                   src={svgs.Modeling}
                   width={24}
@@ -52,7 +50,7 @@ export default function OurServices() {
                 />
               </div>
               <div className={`${styles.mb12} ${styles.flex}`}>
-                <Paragraph24px typography="3D Simulation" textColor="#A7A4AD" />
+                <Typography typography="3D Simulation" variant="primaryTypography" />
                 <Image
                   src={svgs.Simulation}
                   width={22}
@@ -61,10 +59,7 @@ export default function OurServices() {
                 />
               </div>
               <div className={styles.flex}>
-                <Paragraph24px
-                  typography="Video Animation"
-                  textColor="#A7A4AD"
-                />
+                <Typography typography="Video Animation" variant="primaryTypography" />
                 <Image
                   src={svgs.Animation}
                   width={26}

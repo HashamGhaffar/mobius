@@ -1,9 +1,7 @@
 import Image from "next/image";
 import styles from "./ImpracticalityToReality.module.css";
 import {
-  Paragraph20px,
-  Paragraph22px,
-  Hedding38px,
+  Typography
 } from "../../../_component/index";
 
 import pngs from "@/app/_assets/pngs";
@@ -28,22 +26,19 @@ export default function ImpracticalityToReality() {
           </div>
           <div style={{ zIndex: "2" }}>
             <div className={styles.paragraph1}>
-              <Paragraph20px typography="About us" />
+              <Typography typography="About us" variant="tertiaryTypography" />
             </div>
             <div style={{ color: "#ffffff !important" }}>
-              <Hedding38px typography="We Create Impracticality To Reality" />
+              <Typography typography="We Create Impracticality To Reality" variant="tertiaryHeading" element="h1" textColor="#FFFFFF" />
             </div>
             <div className={styles.hrLine}>
               <hr />
             </div>
             <div>
-              <Paragraph22px
-                fontSize={getFontSize()}
-                typography="We provide expert animation services, With a dedicated team of
+              <Typography typography="We provide expert animation services, With a dedicated team of
                  skilled animators, we infuse creativity and flair into every frame. Our 
                  mission is to elevate your storytelling, making it both engaging and memorable. 
-                 Let's embark on a creative journey together and bring your vision to life"
-              />
+                 Let's embark on a creative journey together and bring your vision to life" variant="secondaryTypography" />
             </div>
           </div>
         </div>

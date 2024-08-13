@@ -2,10 +2,10 @@ import styles from "./typography.module.css";
 
 export default function Typography({
   typography,
-  textColor,
+  textColor = "#A7A4AD",
   variant,
   fontFamily,
-  element = "p",
+  element: Element = "p"
 }) {
   const getVariant = {
     primaryHeading: styles.primaryHeading,
@@ -17,11 +17,11 @@ export default function Typography({
   };
 
   return (
-    <element
+    <Element
       style={{ color: textColor, fontFamily: fontFamily }}
       className={getVariant[variant]}
     >
       {typography}
-    </element>
+    </Element>
   );
 }

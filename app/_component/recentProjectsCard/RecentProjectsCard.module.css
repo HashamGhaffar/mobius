@@ -24,6 +24,7 @@
 .typography {
   text-align: center;
   margin-top: 12px;
+  font-size: 16px;
 }
 
 @media (max-width: 1340px) {
@@ -37,5 +38,8 @@
   .card {
     width: 258px !important;
     height: 300px !important;
+  }
+  .typography {
+    font-size: 14px;
   }
 }
