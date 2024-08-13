@@ -1,0 +1,115 @@
+.primaryHeading {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 71px;
+  letter-spacing: 0.04em;
+}
+
+.secondaryHeading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.tertiaryHeading {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+}
+
+.primaryTypography {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.secondaryTypography {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.tertiaryTypography {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media (max-width: 992px) {
+  .primaryHeading {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+
+  .secondaryHeading {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+
+  .tertiaryHeading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+
+  .primaryTypography {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .secondaryTypography {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+
+  .tertiaryTypography {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .primaryHeading {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .secondaryHeading {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .tertiaryHeading {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+  }
+
+  .primaryTypography {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+
+  .secondaryTypography {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+
+  .tertiaryTypography {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+}

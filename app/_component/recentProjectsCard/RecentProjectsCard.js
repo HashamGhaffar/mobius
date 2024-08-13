@@ -1,6 +1,5 @@
 import styles from "./RecentProjectsCard.module.css";
 import Image from "next/image";
-
 export default function RecentProjectsCard({ typography, imagePath }) {
   return (
     <>

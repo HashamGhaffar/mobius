@@ -8,6 +8,10 @@ import {
 
 import pngs from "@/app/_assets/pngs";
 
+const getFontSize = () => {
+  return 12;
+};
+
 export default function ImpracticalityToReality() {
   return (
     <>
@@ -33,7 +37,13 @@ export default function ImpracticalityToReality() {
               <hr />
             </div>
             <div>
-              <Paragraph22px typography="We provide expert animation services, With a dedicated team of skilled animators, we infuse creativity and flair into every frame. Our mission is to elevate your storytelling, making it both engaging and memorable.  Let's embark on a creative journey together and bring your vision to life" />
+              <Paragraph22px
+                fontSize={getFontSize()}
+                typography="We provide expert animation services, With a dedicated team of
+                 skilled animators, we infuse creativity and flair into every frame. Our 
+                 mission is to elevate your storytelling, making it both engaging and memorable. 
+                 Let's embark on a creative journey together and bring your vision to life"
+              />
             </div>
           </div>
         </div>
