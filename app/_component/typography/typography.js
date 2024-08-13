@@ -5,7 +5,7 @@ export default function Typography({
   textColor,
   variant,
   fontFamily,
-  element,
+  element = "p",
 }) {
   const getVariant = {
     primaryHeading: styles.primaryHeading,
@@ -16,24 +16,12 @@ export default function Typography({
     tertiaryTypography: styles.tertiaryTypography,
   };
 
-  if (element === "p") {
-    return (
-      <p
-        style={{ color: textColor, fontFamily: fontFamily }}
-        className={getVariant[variant]}
-      >
-        {typography}
-      </p>
-    );
-  } else element === "h1";
-  {
-    return (
-      <h1
-        style={{ color: textColor, fontFamily: fontFamily }}
-        className={getVariant[variant]}
-      >
-        {typography}
-      </h1>
-    );
-  }
+  return (
+    <element
+      style={{ color: textColor, fontFamily: fontFamily }}
+      className={getVariant[variant]}
+    >
+      {typography}
+    </element>
+  );
 }
