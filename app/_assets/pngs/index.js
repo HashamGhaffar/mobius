@@ -19,6 +19,8 @@ import Metaleon from "../projects/metaleon.png";
 import PillPuncher from "../projects/pillPuncher.png";
 import Sony from "../projects/sony.png";
 
+import Discover from "./Discover.png"
+
 const pngs = {
   Heading,
   HeroHome,
@@ -39,6 +41,8 @@ const pngs = {
   Metaleon,
   PillPuncher,
   Sony,
+
+  Discover,
 };
 
 export default pngs;
