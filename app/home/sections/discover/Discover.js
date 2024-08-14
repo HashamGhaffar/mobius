@@ -13,7 +13,22 @@ export default function Discover() {
 
       </div>
       {/* project detail  */}
-      <div></div>
+      <div className={styles.projectDetail}>
+        <div className={styles.projectNum}>
+          <p>145+</p>
+          <span className={styles.projectDescription}>Clients</span>
+        </div>
+
+        <div className={styles.projectNum}>
+          <p>328+</p>
+          <span className={styles.projectDescription}>Projects</span>
+        </div>
+
+        <div className={styles.projectNum}>
+          <p>67+</p>
+          <span className={styles.projectDescription}>Experts</span>
+        </div>
+      </div>
     </section>
   )
 }

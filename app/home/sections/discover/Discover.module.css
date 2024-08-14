@@ -18,6 +18,30 @@
   margin-bottom: 36px;
 }
 
+.projectDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 160px;
+  height: 120px;
+  width: 100%;
+  background-color: #55555740;
+}
+
+.projectNum { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.projectDescription {
+  font-size: 12px;
+  font-weight: 500;
+}
+
 @media (max-width: 992px) {
   .boxTypography {
     height: 360px;
@@ -26,6 +50,21 @@
     width: 404px;
   margin-bottom: 30px;
 
+  }
+
+  .projectDetail {
+    column-gap: 170px;
+    height: 59px;
+    background-color: #555557;
+  }
+  
+  .projectNum { 
+    row-gap: 0px;
+    font-size: 28px;
+  }
+  
+  .projectDescription {
+    font-size: 8px;
   }
 }
 
@@ -36,5 +75,19 @@
   .hedding {
     width: 242px;
     margin-bottom: 16px;
+  }
+
+  .projectDetail {
+    column-gap: 60px;
+    height: 47px;
+  }
+  
+  .projectNum { 
+    row-gap: 0px;
+    font-size: 20px;
+  }
+  
+  .projectDescription {
+    font-size: 6px;
   }
 }
