@@ -73,7 +73,7 @@
 @media (max-width: 550px) {
   .parentImgTypo {
     background-size: 100% 45%;
-    padding: 53px 50px 0px 30px;
+    padding: 53px 50px 30px 30px;
     flex-direction: column;
     row-gap: 20px;
   }

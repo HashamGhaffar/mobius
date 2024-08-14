@@ -1,24 +1,15 @@
+import style from "./Button.module.css"
+
 export default function Button({
-  fontSize,
-  fontWeight,
-  color,
-  padding,
-  borderRadius,
-  backgroundColor,
-  text,
-  border,
+  styles = {},
+  text
 }) {
+
+
+
   return (
-    <button
-      style={{
-        fontSize: fontSize,
-        fontWeight: fontWeight,
-        color: color,
-        padding: padding,
-        borderRadius: borderRadius,
-        backgroundColor: backgroundColor,
-        border: border,
-      }}
+    <button className={style.button}
+      style={{ ...styles }}
     >
       {text}
     </button>

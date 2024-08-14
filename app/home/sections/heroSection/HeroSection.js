@@ -28,13 +28,9 @@ export default function HeroSection() {
             </div>
             <Button
               text="Watch our Showreel"
-              fontSize="11px"
-              fontWeight="300"
-              color="rgb(255, 255, 255)"
-              padding="5px 20px"
-              borderRadius="4px"
-              border="none"
-              backgroundColor="rgba(167, 164, 173, 0.2)"
+            // styles={{
+            //   inline styling prop
+            // }}
             />
           </div>
         </div>

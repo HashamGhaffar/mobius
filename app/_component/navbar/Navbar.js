@@ -22,13 +22,9 @@ export default function Navbar() {
           <li className={styles.button.listItem}>
             <Button
               text="Get in Touch"
-              fontSize="11px"
-              fontWeight="300"
-              color="rgb(255, 255, 255)"
-              padding="5px 10px"
-              borderRadius="4px"
-              border="none"
-              backgroundColor="rgba(167, 164, 173, 0.1)"
+              styles={{
+                backgroundColor: '#A7A4AD1A',
+              }}
             />
           </li>
         </ul>
