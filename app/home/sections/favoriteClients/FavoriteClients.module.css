@@ -1,3 +1,31 @@
 .main {
   padding: 120px 0px;
 }
+
+.textCenter {
+  text-align: center;
+}
+
+.heddingYspacing {
+  padding: 36px 0 70px 0;
+}
+
+@media (max-width: 992px) {
+  .main {
+    padding: 70px 0px;
+  }
+
+  .heddingYspacing {
+    padding: 31px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    padding: 50px 0px;
+  }
+
+  .heddingYspacing {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,27 @@
+.card {
+  width: 350.52px;
+  background: linear-gradient(0.58deg, rgba(33, 30, 30, 0.25) 0.52%, rgba(66, 65, 67, 0.25) 99.53%);
+  padding: 28px 32px;
+  border: 1px solid #262728;
+  border-radius: 6px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 300;
+  color: #A7A4AD;
+  ;
+  text-transform: uppercase;
+}
+
+.comments {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 25px 0;
+}
