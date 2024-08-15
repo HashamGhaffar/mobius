@@ -3,7 +3,9 @@ import {
   HeroSection,
   ImpracticalityToReality,
   OurServices,
-  RecentProjects, Discover
+  RecentProjects,
+  Discover,
+  FavoriteClients
 } from "./sections/index";
 
 export default function Home() {
@@ -15,7 +17,7 @@ export default function Home() {
         <OurServices />
         <RecentProjects />
         <Discover />
-
+        <FavoriteClients />
       </div>
     </>
   );
