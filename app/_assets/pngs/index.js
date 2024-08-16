@@ -20,6 +20,8 @@ import PillPuncher from "../projects/pillPuncher.png";
 import Sony from "../projects/sony.png";
 
 import Discover from "./Discover.png"
+import ToadWithBeer from "./toadWithBeer.png"
+import BgJoinUs from "./BgJoinUs.png"
 
 const pngs = {
   Heading,
@@ -43,6 +45,8 @@ const pngs = {
   Sony,
 
   Discover,
+  ToadWithBeer,
+  BgJoinUs,
 };
 
 export default pngs;
