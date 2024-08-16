@@ -6,8 +6,10 @@ import {
   RecentProjects,
   Discover,
   FavoriteClients,
-  JoinUs
+  JoinUs,
 } from "./sections/index";
+
+import { Footer } from "../_component";
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
         <Discover />
         <FavoriteClients />
         <JoinUs />
+        <Footer />
       </div>
     </>
   );
