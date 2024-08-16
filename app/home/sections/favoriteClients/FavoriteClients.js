@@ -34,9 +34,9 @@ export default function FavoriteClients() {
         </div>
         <div className={styles.scrollCardBox}>
           <div className={styles.cardBox}>
-            <ClintCard />
-            <ClintCard />
-            <ClintCard />
+            <ClintCard name="Angelina Molnar" status="COORDINATOR" />
+            <ClintCard name="Cehan alee" status="COORDINATOR" />
+            <ClintCard name="Hale Allon" status="COORDINATOR" />
           </div>
         </div>
       </section>

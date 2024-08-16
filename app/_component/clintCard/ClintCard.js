@@ -3,12 +3,12 @@ import svgs from "@/app/_assets/svgs";
 
 import Image from 'next/image'
 
-export default function ClintCard() {
+export default function ClintCard({ name, status }) {
   return (
     <>
       <div className={styles.card}>
-        <p className={styles.name}>Angelina Molnar</p>
-        <p className={styles.status}>COORDINATOR</p>
+        <p className={styles.name}>{name}</p>
+        <p className={styles.status}>{status}</p>
         <p className={styles.comments}>“Regardless of the type of testimonial you like to use, letting people
           know exactly what benefits your product or service can offer them in the
           words of people. Product or service can offer them in the words of people.”
