@@ -10,6 +10,19 @@
   padding: 36px 0 70px 0;
 }
 
+.scrollCardBox {
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.cardBox {
+  display: flex; 
+  justify-content: center;
+  column-gap: 30px;
+  width: 100%;
+  /* overflow-x: auto; */
+}
+
 @media (max-width: 992px) {
   .main {
     padding: 70px 0px;
@@ -17,6 +30,10 @@
 
   .heddingYspacing {
     padding: 31px 0;
+  }
+
+  .cardBox {
+    column-gap: 19px;
   }
 }
 

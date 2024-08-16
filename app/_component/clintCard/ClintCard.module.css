@@ -1,9 +1,10 @@
 .card {
-  width: 350.52px;
+  width: 350px;
   background: linear-gradient(0.58deg, rgba(33, 30, 30, 0.25) 0.52%, rgba(66, 65, 67, 0.25) 99.53%);
   padding: 28px 32px;
   border: 1px solid #262728;
   border-radius: 6px;
+  overflow: auto; 
 }
 
 .name {
@@ -16,7 +17,6 @@
   font-size: 12px;
   font-weight: 300;
   color: #A7A4AD;
-  ;
   text-transform: uppercase;
 }
 
@@ -24,4 +24,44 @@
   font-size: 16px;
   font-weight: 300;
   padding: 25px 0;
+}
+
+@media (max-width: 992px) {
+  .card {
+    min-width: 226px;
+    padding: 14px 20px;
+  }
+
+  .name {
+    font-size: 11px;
+  }
+  
+  .status {
+    font-size: 7px;
+  }
+
+  .comments {
+    font-size: 10px;
+    padding: 11px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .card {
+    min-width: 209px;
+    padding: 16px 18px;
+  }
+
+  .name {
+    font-size: 10px;
+  }
+  
+  .status {
+    font-size: 7px;
+  }
+
+  .comments {
+    font-size: 10px;
+    padding: 10px 0;
+  }
 }
