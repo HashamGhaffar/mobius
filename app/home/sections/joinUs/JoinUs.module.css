@@ -1,48 +1,89 @@
 .main {
-  padding: 120px 0px;
+  position: relative;
+  padding: 0 90px 120px 90px;
 }
 
-.textCenter {
+.boxText {
+  position: relative;
+  background-image: url(../../../_assets//pngs/BgJoinUs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.boxButton {
+  margin-top: 45px;
   text-align: center;
 }
 
-.heddingYspacing {
-  padding: 36px 0 70px 0;
+.contentBox {
+  position: absolute;
+  top: 50%;
+  left: 163px;
+  transform: translateY(-50%);
 }
 
-.scrollCardBox {
-  width: 100vw;
-  overflow-x: scroll;
-}
-
-.cardBox {
-  display: flex; 
-  justify-content: center;
-  column-gap: 30px;
-  width: 100%;
-  /* overflow-x: auto; */
+.ToadWithBeer {
+  position: absolute;
+  bottom: -20px;
+  right: 107px;
 }
 
 @media (max-width: 992px) {
   .main {
-    padding: 70px 0px;
+    padding: 0px 0 71px 50px;
   }
 
-  .heddingYspacing {
-    padding: 31px 0;
+  .boxText {
+    width: 471px;
+    height: 252px;
   }
 
-  .cardBox {
-    column-gap: 19px;
+  .boxButton {
+    margin-top: 40px;
   }
+
+  .contentBox {
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+
+  .ToadWithBeer{
+    width: 161px;
+    height: auto;
+    right: 76px;
+  }
+  
 }
 
 @media (max-width: 550px) {
   .main {
-    padding: 50px 0px;
+    padding: 0px 0px 64px 0px;
   }
 
-  .heddingYspacing {
-    padding: 20px 0;
+  .boxText {
+    text-wrap: nowrap;
+    height: 252px;
+    width: 100%;
+    border-radius: 0;
   }
+
+  .boxButton {
+    margin-top: 25px;
+  }
+
+  .contentBox {
+    top: 58px;
+    left: 30px;
+    transform: translate(0 , 0);
+  }
+
+  .ToadWithBeer{
+    width: 135px;
+    height: 235px;
+    right: 22px;
+  }
+  
 }

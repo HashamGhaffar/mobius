@@ -5,7 +5,8 @@ import {
   OurServices,
   RecentProjects,
   Discover,
-  FavoriteClients
+  FavoriteClients,
+  JoinUs
 } from "./sections/index";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <RecentProjects />
         <Discover />
         <FavoriteClients />
+        <JoinUs />
       </div>
     </>
   );
