@@ -47,15 +47,14 @@
 
   .contentBox {
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
   }
 
-  .ToadWithBeer{
+  .ToadWithBeer {
     width: 161px;
     height: auto;
     right: 76px;
   }
-  
 }
 
 @media (max-width: 550px) {
@@ -77,13 +76,12 @@
   .contentBox {
     top: 58px;
     left: 30px;
-    transform: translate(0 , 0);
+    transform: translate(0, 0);
   }
 
-  .ToadWithBeer{
+  .ToadWithBeer {
     width: 135px;
     height: 235px;
     right: 22px;
   }
-  
 }

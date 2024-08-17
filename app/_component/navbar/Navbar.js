@@ -23,7 +23,7 @@ export default function Navbar() {
             <Button
               text="Get in Touch"
               styles={{
-                backgroundColor: '#A7A4AD1A',
+                backgroundColor: "#A7A4AD1A",
               }}
             />
           </li>

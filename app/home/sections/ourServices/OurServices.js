@@ -5,9 +5,7 @@ import Image from "next/image";
 import pngs from "@/app/_assets/pngs";
 import svgs from "@/app/_assets/svgs";
 import styles from "./OurServices.module.css";
-import {
-  Typography
-} from "../../../_component/index";
+import { Typography } from "../../../_component/index";
 
 export default function OurServices() {
   return (
@@ -22,10 +20,17 @@ export default function OurServices() {
         />
         <div>
           <div className={styles.ourServices}>
-            <Typography typography="Our Services" variant="tertiaryTypography" />
+            <Typography
+              typography="Our Services"
+              variant="tertiaryTypography"
+            />
           </div>
           <div className={styles.hedding}>
-            <Typography typography="We Provide 3D Services" variant="tertiaryHeading" textColor="#ffffff" />
+            <Typography
+              typography="We Provide 3D Services"
+              variant="tertiaryHeading"
+              textColor="#ffffff"
+            />
           </div>
 
           <div className={styles.horizontalLine}>
@@ -41,7 +46,11 @@ export default function OurServices() {
             />
             <div>
               <div className={`${styles.mb12} ${styles.flex}`}>
-                <Typography typography="3D Modeling" variant="primaryTypography" textColor="#ffffff" />
+                <Typography
+                  typography="3D Modeling"
+                  variant="primaryTypography"
+                  textColor="#ffffff"
+                />
                 <Image
                   src={svgs.Modeling}
                   width={24}
@@ -50,7 +59,10 @@ export default function OurServices() {
                 />
               </div>
               <div className={`${styles.mb12} ${styles.flex}`}>
-                <Typography typography="3D Simulation" variant="primaryTypography" />
+                <Typography
+                  typography="3D Simulation"
+                  variant="primaryTypography"
+                />
                 <Image
                   src={svgs.Simulation}
                   width={22}
@@ -59,7 +71,10 @@ export default function OurServices() {
                 />
               </div>
               <div className={styles.flex}>
-                <Typography typography="Video Animation" variant="primaryTypography" />
+                <Typography
+                  typography="Video Animation"
+                  variant="primaryTypography"
+                />
                 <Image
                   src={svgs.Animation}
                   width={26}

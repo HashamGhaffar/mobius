@@ -5,11 +5,4 @@ import Typography from "./typography/typography";
 import ClintCard from "./clintCard/ClintCard";
 import Footer from "./footer/Footer";
 
-export {
-  Navbar,
-  Button,
-  RecentProjectsCard,
-  Typography,
-  ClintCard,
-  Footer,
-};
+export { Navbar, Button, RecentProjectsCard, Typography, ClintCard, Footer };

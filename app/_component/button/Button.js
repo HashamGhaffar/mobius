@@ -1,16 +1,8 @@
-import style from "./Button.module.css"
+import style from "./Button.module.css";
 
-export default function Button({
-  styles = {},
-  text
-}) {
-
-
-
+export default function Button({ styles = {}, text }) {
   return (
-    <button className={style.button}
-      style={{ ...styles }}
-    >
+    <button className={style.button} style={{ ...styles }}>
       {text}
     </button>
   );

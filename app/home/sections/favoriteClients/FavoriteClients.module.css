@@ -16,7 +16,7 @@
 }
 
 .cardBox {
-  display: flex; 
+  display: flex;
   justify-content: center;
   column-gap: 30px;
   width: 100%;

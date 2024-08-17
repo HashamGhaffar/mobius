@@ -6,7 +6,7 @@ export default function Typography({
   textColor = "#A7A4AD",
   variant,
   fontFamily,
-  element: Element = "p"
+  element: Element = "p",
 }) {
   const getVariant = {
     primaryHeading: styles.primaryHeading,
