@@ -1,10 +1,14 @@
 .card {
   width: 350px;
-  background: linear-gradient(0.58deg, rgba(33, 30, 30, 0.25) 0.52%, rgba(66, 65, 67, 0.25) 99.53%);
+  background: linear-gradient(
+    0.58deg,
+    rgba(33, 30, 30, 0.25) 0.52%,
+    rgba(66, 65, 67, 0.25) 99.53%
+  );
   padding: 28px 32px;
   border: 1px solid #262728;
   border-radius: 6px;
-  overflow: auto; 
+  overflow: auto;
 }
 
 .name {
@@ -16,7 +20,7 @@
 .status {
   font-size: 12px;
   font-weight: 300;
-  color: #A7A4AD;
+  color: #a7a4ad;
   text-transform: uppercase;
 }
 
@@ -35,7 +39,7 @@
   .name {
     font-size: 11px;
   }
-  
+
   .status {
     font-size: 7px;
   }
@@ -55,7 +59,7 @@
   .name {
     font-size: 10px;
   }
-  
+
   .status {
     font-size: 7px;
   }

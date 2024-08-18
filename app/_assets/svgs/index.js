@@ -11,6 +11,18 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedIn from "./linkedIn.svg";
 
-const svgs = { hamburger, logo, Simulation, Modeling, Animation, Star, Behance, Dribbble, facebook, instagram, linkedIn };
+const svgs = {
+  hamburger,
+  logo,
+  Simulation,
+  Modeling,
+  Animation,
+  Star,
+  Behance,
+  Dribbble,
+  facebook,
+  instagram,
+  linkedIn,
+};
 
 export default svgs;

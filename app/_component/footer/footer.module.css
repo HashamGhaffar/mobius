@@ -1,0 +1,14 @@
+.main {
+  padding: 60px 90px 0 90px;
+  background-color: #0a0a0a;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 76px;
+}
+
+.list {
+  list-style-type: none;
+}
