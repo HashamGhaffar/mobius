@@ -7,11 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./RecentProjects.module.css";
 import pngs from "@/app/_assets/pngs";
 
-import {
-  Paragraph20px,
-  Hedding38px, Typography,
-  RecentProjectsCard,
-} from "../../../_component/index";
+import { Typography, RecentProjectsCard } from "../../../_component/index";
 
 export default function RecentProjects() {
   var settings = {
@@ -54,7 +50,12 @@ export default function RecentProjects() {
           className={styles.textCenter}
           style={{ marginTop: "36px", marginBottom: "70px" }}
         >
-          <Typography variant="tertiaryHeading" typography="Here are our some recent Projects" element="h1" textColor="#FFFFFF" />
+          <Typography
+            variant="tertiaryHeading"
+            typography="Here are our some recent Projects"
+            element="h1"
+            textColor="#FFFFFF"
+          />
         </div>
         <Slider centerMode={true} centerPadding="20px" {...settings}>
           <div>

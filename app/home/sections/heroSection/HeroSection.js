@@ -22,15 +22,18 @@ export default function HeroSection() {
               alt="Picture of the author"
             />
             <div className={styles.boxParagraph}>
-              <Typography variant="tertiaryTypography" typography="We provide expert animation services, bringing your ideas to life
+              <Typography
+                variant="tertiaryTypography"
+                typography="We provide expert animation services, bringing your ideas to life
               with creativity and flair.Elevate your storytelling with our
-              exceptional team at your service." />
+              exceptional team at your service."
+              />
             </div>
             <Button
               text="Watch our Showreel"
-            // styles={{
-            //   inline styling prop
-            // }}
+              // styles={{
+              //   inline styling prop
+              // }}
             />
           </div>
         </div>

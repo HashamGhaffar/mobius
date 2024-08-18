@@ -12,7 +12,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);  
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 723px;
   margin-bottom: 36px;
@@ -28,7 +28,7 @@
   background-color: #55555740;
 }
 
-.projectNum { 
+.projectNum {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,8 +48,7 @@
   }
   .hedding {
     width: 404px;
-  margin-bottom: 30px;
-
+    margin-bottom: 30px;
   }
 
   .projectDetail {
@@ -57,12 +56,12 @@
     height: 59px;
     background-color: #555557;
   }
-  
-  .projectNum { 
+
+  .projectNum {
     row-gap: 0px;
     font-size: 28px;
   }
-  
+
   .projectDescription {
     font-size: 8px;
   }
@@ -81,12 +80,12 @@
     column-gap: 60px;
     height: 47px;
   }
-  
-  .projectNum { 
+
+  .projectNum {
     row-gap: 0px;
     font-size: 20px;
   }
-  
+
   .projectDescription {
     font-size: 6px;
   }

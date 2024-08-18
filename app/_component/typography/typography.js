@@ -1,11 +1,12 @@
 import styles from "./typography.module.css";
 
 export default function Typography({
+  styles = {},
   typography,
   textColor = "#A7A4AD",
   variant,
   fontFamily,
-  element: Element = "p"
+  element: Element = "p",
 }) {
   const getVariant = {
     primaryHeading: styles.primaryHeading,
