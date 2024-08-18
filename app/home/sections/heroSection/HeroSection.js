@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { Navbar } from "../../../_component/index";
 import { Button, Typography } from "../../../_component/index";
-import styles from "./heroSection.module.css";
+import styles from "./HeroSection.module.css";
 
 import pngs from "@/app/_assets/pngs";
 
@@ -31,9 +31,9 @@ export default function HeroSection() {
             </div>
             <Button
               text="Watch our Showreel"
-              // styles={{
-              //   inline styling prop
-              // }}
+            // styles={{
+            //   inline styling prop
+            // }}
             />
           </div>
         </div>

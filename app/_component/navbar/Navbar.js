@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Button } from "../../_component/index.js";
-import styles from "./navbar.module.css";
+import styles from "./Navbar.module.css";
 
 import svgs from "@/app/_assets/svgs";
 
