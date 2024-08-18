@@ -1,7 +1,7 @@
-import styles from "./typography.module.css";
+import styles from "./Typography.module.css";
 
 export default function Typography({
-  styles = {},
+  style = {},
   typography,
   textColor = "#A7A4AD",
   variant,
@@ -19,7 +19,7 @@ export default function Typography({
 
   return (
     <Element
-      style={{ color: textColor, fontFamily: fontFamily }}
+      style={{ color: textColor, fontFamily: fontFamily, ...style }}
       className={getVariant[variant]}
     >
       {typography}
