@@ -2,13 +2,13 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../../../_assets//pngs/heroHome.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  height: 720px;
+  /* height: 720px; */
 }
 
 .parent {
-  padding: 0px 90px;
-  margin-top: 300px;
+  padding: 258px 90px 128px 90px;
 }
 
 .heddingImage {
@@ -25,12 +25,11 @@
 
 @media (max-width: 992px) {
   .parentBox {
-    height: 534px;
+    /* height: 534px; */
   }
 
   .parent {
-    padding: 0px 50px;
-    margin-top: 186px;
+    padding: 195px 50px 70px 50px;
   }
 
   .heddingImage {
@@ -46,11 +45,10 @@
 
 @media (max-width: 550px) {
   .parentBox {
-    height: 500px;
+    /* height: 500px; */
   }
   .parent {
-    padding: 0px 30px;
-    margin-top: 156px;
+    padding: 165px 30px 30px 30px;
   }
 
   .heddingImage {
