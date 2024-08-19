@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 226px;
-  padding: 120px 91px 130px 215px;
+  padding: 120px 91px 152px 215px;
 }
 
 .paragraph1 {
@@ -26,7 +26,7 @@
 .blur {
   width: 55% !important;
   position: absolute;
-  bottom: -3%;
+  bottom: -1px;
 }
 
 @media (max-width: 1200px) {
@@ -44,7 +44,8 @@
 
 @media (max-width: 992px) {
   .parentImgTypo {
-    padding: 85px 50px 70px 100px;
+    background-size: cover;
+    padding: 85px 50px 91px 115px;
     column-gap: 100px;
 
     /* flex-direction: column; */
@@ -65,8 +66,8 @@
 
   .blur {
     height: 135px !important;
-    width: 62% !important;
-    bottom: 0%;
+    width: 100% !important;
+    bottom: 16px;
   }
 }
 
@@ -92,9 +93,9 @@
   }
 
   .blur {
-    height: 58px !important;
+    height: 100px !important;
     width: 100% !important;
-    top: 305px;
+    top: 280px;
     left: 50%;
     translate: transformX(-50%);
     transform: translateX(-50%);
