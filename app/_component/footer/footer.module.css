@@ -5,10 +5,161 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   column-gap: 76px;
 }
 
 .list {
   list-style-type: none;
+}
+
+.Address {
+  min-width: 155px;
+}
+
+.Studio {
+  min-width: 154px;
+}
+
+.Newsletter {
+  width: 366px;
+  min-width: 300px;
+}
+
+.footerHr {
+  width: 50px;
+  gap: 0px;
+  border: 0.7px solid #C0C3C9;
+  margin-top: 5px;
+}
+
+.hedderDescription {
+  margin: 48px 0 30px 0;
+}
+
+.emailInput::placeholder {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.emailInput {
+  background-color: #202020;
+  border: none;
+  outline: none;
+  padding: 18px 0 18px 14px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.mobileSpecificAddress {
+  display: none;
+}
+
+.mediaLinks {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+  padding: 26px 0;
+}
+
+.Copyright {
+  padding: 21px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+}
+
+.mobileSpecificDescription {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    padding: 40px 50px 0 50px;
+  }
+
+  .footer {
+    column-gap: 71px;
+  }
+
+  .Newsletter {
+    display: none;
+  }
+
+  .Address {
+    min-width: 100px;
+  }
+
+  .Studio {
+    min-width: 134px;
+  }
+  .footerHr {
+    margin-top: 12px;
+  }
+
+  .hedderDescription{
+    margin: 29px 0 30px 0;
+  }
+
+  .desktopSpecificDescription {
+    display: none;
+  }
+
+  .mobileSpecificDescription {
+    display: block;
+    list-style-type: none;
+    color: rgba(110, 110, 107, 1);
+    font-size: 16px;
+    margin-top: 29px;
+  }
+
+  .mobileSpecificDescription > li {
+    font-weight: 400 !important;
+    margin-bottom: 17px;
+  }
+
+  .mediaLinks {
+    padding: 0px 0px 25px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    padding: 30px 30px 0 30px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 40px;
+  }
+
+  .footerHr {
+    margin-top: 10px;
+  }
+
+  .hedderDescription {
+    margin: 34px 0 20px 0;
+  }
+  
+  .Address {
+    display: none;
+  }
+
+  .mobileSpecificAddress {
+    display: block;
+  }
+
+  .mediaLinks {
+
+    padding: 40px 0;
+
+  }
+
+  .Copyright {
+    padding: 22px 0;
+  }
 }
