@@ -6,9 +6,10 @@
     rgba(66, 65, 67, 0.25) 99.53%
   );
   padding: 28px 32px;
+  /* margin: 0 20px 0 20px; */
   border: 1px solid #262728;
   border-radius: 6px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .name {
@@ -34,6 +35,7 @@
   .card {
     min-width: 226px;
     padding: 14px 20px;
+    /* margin: 0 20px 0 20px; */
   }
 
   .name {

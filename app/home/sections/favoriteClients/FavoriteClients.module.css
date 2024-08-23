@@ -1,5 +1,6 @@
 .main {
   padding: 120px 0px;
+  /* overflow-x: auto; */
 }
 
 .textCenter {
@@ -10,17 +11,14 @@
   padding: 36px 0 70px 0;
 }
 
-.scrollCardBox {
-  width: 100vw;
-  overflow-x: scroll;
-}
-
 .cardBox {
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  width: 100%;
-  /* overflow-x: auto; */
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 0 20px 0 20px;
+
 }
 
 @media (max-width: 992px) {
@@ -33,7 +31,9 @@
   }
 
   .cardBox {
+    justify-content: flex-start;
     column-gap: 19px;
+    margin: 0 20px 0 20px;
   }
 }
 
