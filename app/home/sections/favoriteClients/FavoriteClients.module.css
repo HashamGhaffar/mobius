@@ -11,6 +11,14 @@
   padding: 36px 0 70px 0;
 }
 
+.marquee {
+  margin-bottom: 120px;
+}
+
+.logoWrap {
+  margin-right: 7px;
+}
+
 .cardBox {
   display: flex;
   justify-content: center;
@@ -30,6 +38,15 @@
     padding: 31px 0;
   }
 
+  .marquee {
+    margin-bottom: 71px;
+  }
+
+  .logoWrap {
+    height: 83px;
+    width: 123px;
+  }
+
   .cardBox {
     justify-content: flex-start;
     column-gap: 19px;
@@ -40,6 +57,15 @@
 @media (max-width: 550px) {
   .main {
     padding: 50px 0px;
+  }
+
+  .marquee {
+    margin-bottom: 56px;
+  }
+
+  .logoWrap {
+    height: 70px;
+    width: 103px;
   }
 
   .heddingYspacing {

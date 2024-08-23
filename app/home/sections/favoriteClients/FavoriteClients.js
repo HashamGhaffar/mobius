@@ -1,4 +1,7 @@
 import styles from "./FavoriteClients.module.css";
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
+import pngs from "@/app/_assets/pngs";
 import { Typography, ClintCard } from "../../../_component/index";
 
 export default function FavoriteClients() {
@@ -19,6 +22,58 @@ export default function FavoriteClients() {
           </div>
 
           {/* markey */}
+          <Marquee className={styles.marquee}>
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MAvancus}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MElivate}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MFoneStar}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MFormulaZ}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MLightOne}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MLuna}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MMetaleon}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MPillPuncher}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MAvancus}
+              alt="icon"
+            />
+            <Image
+              className={styles.logoWrap}
+              src={pngs.MSony}
+              alt="icon"
+            />
+          </Marquee>
 
           <div className={styles.textCenter}>
             <Typography variant="tertiaryTypography" typography="Testimonial" />
