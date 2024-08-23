@@ -32,12 +32,10 @@ export default function FavoriteClients() {
             />
           </div>
         </div>
-        <div className={styles.scrollCardBox}>
-          <div className={styles.cardBox}>
-            <ClintCard name="Angelina Molnar" status="COORDINATOR" />
-            <ClintCard name="Cehan alee" status="COORDINATOR" />
-            <ClintCard name="Hale Allon" status="COORDINATOR" />
-          </div>
+        <div className={styles.cardBox}>
+          <ClintCard name="Angelina Molnar" status="COORDINATOR" />
+          <ClintCard name="Cehan alee" status="COORDINATOR" />
+          <ClintCard name="Hale Allon" status="COORDINATOR" />
         </div>
       </section>
     </>

@@ -11,13 +11,6 @@ export default function OurServices() {
   return (
     <>
       <section className={styles.parent}>
-        <Image
-          className={styles.topShade}
-          src={pngs.ChameleonBlur}
-          width={362}
-          height={800}
-          alt="topShade"
-        />
         <div>
           <div className={styles.ourServices}>
             <Typography
@@ -99,13 +92,7 @@ export default function OurServices() {
             alt="rightShade"
           />
         </div>
-        <Image
-          className={styles.bottomShade}
-          src={pngs.ChameleonBlur}
-          width={362}
-          height={800}
-          alt="bottomShade"
-        />
+
       </section>
     </>
   );
