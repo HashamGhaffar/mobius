@@ -1,5 +1,5 @@
 .parent {
-  padding: 216px 90px 130px 90px;
+  padding: 48px 90px 130px 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +40,7 @@
   background-image: url(../../../_assets/pngs/darkSquareGridBackground.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-position: center;
   width: 600px;
   height: 600px;
 }
@@ -52,51 +52,17 @@
   transform: translate(-50%, -50%);
 }
 
-.topShade {
-  position: absolute;
-  top: 68px;
-  left: 200px;
-  width: 175px;
-  height: 300px;
-  width: 100%;
-  z-index: 1;
-}
-
-.rightShade {
-  position: absolute;
-  bottom: 0;
-  width: 106px;
-  height: 800px;
-  right: -29px;
-}
-
-.bottomShade {
-  position: absolute;
-  bottom: 0px;
-  width: 55%;
-  right: 0;
-  height: 200px;
-}
-
-.leftShade {
-  position: absolute;
-  left: 0;
-  left: -10px;
-  width: 100px;
-  transform: rotate(180deg);
-}
-
 .mobileShade {
   display: none;
 }
 
 @media (max-width: 1200px) {
   .parent {
-    padding: 120px 90px 110px 100px;
+    padding: 70px 90px 110px 100px;
   }
 
   .lenzBox {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
   }
 
@@ -114,13 +80,10 @@
 
 @media (max-width: 992px) {
   .parent {
-    padding: 85px 50px 70px 100px;
+    padding: 85px 50px 70px 50px;
   }
 
   .lenzBox {
-    background-size: cover;
-    /* background-repeat: repeat; */
-    background-position: center;
     width: 400px;
     height: 400px;
   }

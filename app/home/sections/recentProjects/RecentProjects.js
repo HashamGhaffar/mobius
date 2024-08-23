@@ -58,9 +58,7 @@ export default function RecentProjects() {
           />
         </div>
         <Slider centerMode={true} centerPadding="20px" {...settings}>
-          <div>
-            <RecentProjectsCard imagePath={pngs.Sony} typography="sony" />
-          </div>
+          <RecentProjectsCard imagePath={pngs.Sony} typography="sony" />
           <RecentProjectsCard
             imagePath={pngs.PillPuncher}
             typography="Pill Puncher"
