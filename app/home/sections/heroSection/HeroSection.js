@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./HeroSection.module.css";
+import styles from "./heroSection.module.css";
 import pngs from "@/app/_assets/pngs";
 
 import { Navbar } from "../../../_component/index";
@@ -24,6 +24,12 @@ export default function HeroSection() {
                 typography="We provide expert animation services, bringing your ideas to life
               with creativity and flair.Elevate your storytelling with our
               exceptional team at your service."
+              />
+            </div>
+            <div className={styles.mobileBoxParagraph}>
+              <Typography
+                variant="tertiaryTypography"
+                typography="We provide expert animation services, bringing your ideas to life with creativity and flair. "
               />
             </div>
             <Button

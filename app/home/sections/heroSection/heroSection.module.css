@@ -13,13 +13,16 @@
 .heddingImage {
   width: 533px;
   height: 87px;
-  margin-bottom: 20px;
 }
 
 .boxParagraph {
   max-width: 640px;
   width: 100%;
-  margin-bottom: 25px;
+  margin: 25px 0 ;
+}
+
+.mobileBoxParagraph {
+  display: none;
 }
 
 @media (max-width: 992px) {
@@ -31,13 +34,18 @@
   }
 
   .heddingImage {
-    width: 450px;
+    width: 456px;
     height: auto;
   }
 
   .boxParagraph {
+    display: none;
+  }
+  .mobileBoxParagraph {
+    display: block;
+    margin: 26px 0;
     width: 100%;
-    max-width: 450px;
+    max-width: 466px;
   }
 }
 
@@ -52,7 +60,13 @@
   }
 
   .boxParagraph {
-    max-width: 290px;
+    display: none;
+  }
+
+  .mobileBoxParagraph {
+    display: block;
+    margin: 20px 0 ;
     width: 100%;
+    max-width: 295px;
   }
 }
