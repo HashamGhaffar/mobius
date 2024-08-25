@@ -19,13 +19,8 @@ export default function Navbar() {
           <li className={styles.listItem}>Home</li>
           <li className={styles.listItem}>Case Studies</li>
           <li className={styles.listItem}>Careers</li>
-          <li className={styles.button.listItem}>
-            <Button
-              text="Get in Touch"
-              styles={{
-                backgroundColor: "#A7A4AD1A",
-              }}
-            />
+          <li className={`${styles.button} ${styles.listItem}`}>
+            Get in Touch
           </li>
         </ul>
         <Image
