@@ -18,12 +18,18 @@
 .horizontalLine {
   width: 100px;
   margin: 20px 0;
+  border-color: #A7A4AD;
 }
 
 .boxServicesList {
   display: flex;
   align-items: center;
   column-gap: 42px;
+}
+
+.bulletsServicesList {
+  width: 12px;
+  height: 118px;
 }
 
 .flex {
@@ -52,35 +58,15 @@
   transform: translate(-50%, -50%);
 }
 
-.mobileShade {
-  display: none;
-}
-
 @media (max-width: 1200px) {
   .parent {
     padding: 70px 90px 110px 100px;
-  }
-
-  .lenzBox {
-    background-size: cover;
-    background-position: center;
-  }
-
-  .topShade {
-    top: 75px;
-    height: 150px;
-  }
-
-  .bottomShade {
-    bottom: 36px;
-  }
-  .lenzBox {
   }
 }
 
 @media (max-width: 992px) {
   .parent {
-    padding: 85px 50px 70px 50px;
+    padding: 10px 50px 70px 50px;
   }
 
   .lenzBox {
@@ -88,15 +74,14 @@
     height: 400px;
   }
 
-  .topShade {
-    top: -4px;
+  .horizontalLine {
+    width: 50px;
+    margin: 24px 0;
   }
 
-  .bottomShade {
-    bottom: -50px;
-    right: 0;
-    width: 577px;
-    height: 200px;
+  .bulletsServicesList {
+    width: auto;
+    height: 89px;
   }
 
   .lenz {
@@ -109,8 +94,7 @@
   .parent {
     align-items: flex-start;
     flex-direction: column-reverse;
-    row-gap: 15px;
-    padding: 53px 50px 70px 30px;
+    padding: 0px 50px 70px 30px;
   }
 
   .flex {
@@ -118,7 +102,7 @@
   }
 
   .hedding {
-    white-space: wrap;
+    white-space: normal;
   }
 
   .horizontalLine {
@@ -135,17 +119,6 @@
     height: 350px;
   }
 
-  .topShade {
-    top: -26px;
-    height: 150px;
-    width: 100%;
-    width: 100vw;
-    left: 0;
-  }
-
-  .bottomShade {
-    display: none;
-  }
   .mobileShade {
     display: block;
     position: absolute;
