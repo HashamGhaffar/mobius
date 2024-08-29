@@ -86,11 +86,6 @@ export default function OurServices() {
             height={361}
             alt="Lenz"
           />
-          <Image
-            className={styles.mobileShade}
-            src={pngs.ChameleonBlur}
-            alt="rightShade"
-          />
         </div>
 
       </section>
