@@ -19,7 +19,7 @@ export default function Typography({
 
   return (
     <Element
-      style={{ color: textColor, fontFamily: fontFamily, ...style }}
+      style={{ color: textColor, fontFamily: fontFamily, ...style }}//...styles these three douts are spread operator
       className={getVariant[variant]}
     >
       {typography}
