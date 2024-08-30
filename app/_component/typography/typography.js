@@ -8,8 +8,6 @@ export default function Typography({
   fontFamily,
   element: Element = "p",
 }) {
-
-  console.log(style, 'style')
   const getVariant = {
     primaryHeading: styles.primaryHeading,
     secondaryHeading: styles.secondaryHeading,
