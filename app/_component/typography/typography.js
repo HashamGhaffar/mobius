@@ -8,8 +8,6 @@ export default function Typography({
   fontFamily,
   element: Element = "p",
 }) {
-
-  console.log(style, 'style')
   const getVariant = {
     primaryHeading: styles.primaryHeading,
     secondaryHeading: styles.secondaryHeading,
@@ -21,7 +19,7 @@ export default function Typography({
 
   return (
     <Element
-      style={{ color: textColor, fontFamily: fontFamily, ...style }}
+      style={{ color: textColor, fontFamily: fontFamily, ...style }}//...styles these three douts are spread operator
       className={getVariant[variant]}
     >
       {typography}
