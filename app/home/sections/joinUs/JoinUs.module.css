@@ -53,7 +53,8 @@
   .ToadWithBeer {
     width: 161px;
     height: auto;
-    right: 76px;
+    right: 76px;    
+    bottom: -12px;
   }
 }
 
@@ -83,5 +84,6 @@
     width: 135px;
     height: 235px;
     right: 22px;
+    
   }
 }
