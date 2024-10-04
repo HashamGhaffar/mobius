@@ -1,0 +1,28 @@
+.parentBox {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../_assets//pngs/heroHome.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.parent {
+  padding: 258px 90px 128px 90px;
+}
+
+@media (max-width: 992px) {
+  .parentBox {
+  }
+
+  .parent {
+    padding: 195px 50px 70px 50px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .parent {
+    padding: 165px 30px 30px 30px;
+  }
+
+}

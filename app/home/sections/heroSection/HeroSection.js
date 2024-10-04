@@ -32,9 +32,7 @@ export default function HeroSection() {
                 typography="We provide expert animation services, bringing your ideas to life with creativity and flair. "
               />
             </div>
-            <Button
-              text="Watch our Showreel"
-            />
+            <Button text="Watch our Showreel" />
           </div>
         </div>
       </section>
