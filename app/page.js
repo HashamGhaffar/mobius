@@ -7,8 +7,7 @@ import {
   Discover,
   FavoriteClients,
   JoinUs,
-} from "./home/sections/index"
-
+} from "./home/sections/index";
 import { Footer } from "./_component";
 
 export default function Home() {
