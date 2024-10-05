@@ -4,24 +4,16 @@ import { Typography } from "../../../_component/index";
 
 import pngs from "@/app/_assets/pngs";
 
-const getFontSize = () => {
-  return 12;
-};
-
-export default function ImpracticalityToReality() {
+export default function AboutUs() {
   return (
     <>
       <section className={styles.parent}>
         <div className={styles.parentImgTypo}>
-          <div>
-            <Image
-              className={styles.ChameleonInSuit}
-              src={pngs.ChameleonInSuit}
-              width={289}
-              height={515}
-              alt="ChameleonInSuit"
-            />
-          </div>
+          <Image
+            className={styles.ChameleonInSuit}
+            src={pngs.ChameleonInSuit}
+            alt="ChameleonInSuit"
+          />
           <div style={{ zIndex: "2" }}>
             <div className={styles.paragraph1}>
               <Typography typography="About us" variant="tertiaryTypography" />

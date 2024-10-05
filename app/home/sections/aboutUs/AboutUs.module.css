@@ -6,12 +6,17 @@
 .parentImgTypo {
   background-image: url(../../../_assets//pngs/plainGrayBackground.png);
   background-repeat: no-repeat;
-  background-size: 100% 87%;
+  background-size: 100% 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 226px;
   padding: 120px 91px 152px 215px;
+}
+
+.ChameleonInSuit {
+  width: 289px;
+  height: 515px;
 }
 
 .paragraph1 {
@@ -24,11 +29,12 @@
 }
 
 .blur {
-  width: 55% !important;
+  width: 100% !important;
   position: absolute;
-  bottom: -1px;
+  bottom: 16px;
 }
 
+/* Media Queries */
 @media (max-width: 1200px) {
   .parentImgTypo {
     padding: 120px 90px 110px 100px;
@@ -44,12 +50,11 @@
 
 @media (max-width: 992px) {
   .parentImgTypo {
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 85px 50px 91px 115px;
     column-gap: 100px;
-
-    /* flex-direction: column; */
   }
+
   .ChameleonInSuit {
     width: 159px;
     height: 283.34px;
@@ -73,11 +78,12 @@
 
 @media (max-width: 550px) {
   .parentImgTypo {
-    background-size: 100% 45%;
+    background-size: 100% 60%;
     padding: 53px 50px 0px 30px;
     flex-direction: column;
     row-gap: 20px;
   }
+
   .ChameleonInSuit {
     width: 159px;
     height: 283.34px;
@@ -97,7 +103,6 @@
     width: 100% !important;
     top: 280px;
     left: 50%;
-    translate: transformX(-50%);
     transform: translateX(-50%);
   }
 }
