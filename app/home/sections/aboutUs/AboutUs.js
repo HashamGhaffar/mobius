@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./ImpracticalityToReality.module.css";
+import styles from "./AboutUs.module.css";
 import { Typography } from "../../../_component/index";
 
 import pngs from "@/app/_assets/pngs";

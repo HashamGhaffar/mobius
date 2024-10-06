@@ -1,7 +1,7 @@
 // import styles from "./home.module.css";
 import {
   HeroSection,
-  ImpracticalityToReality,
+  AboutUs,
   OurServices,
   RecentProjects,
   Discover,
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div>
         <HeroSection />
-        <ImpracticalityToReality />
+        <AboutUs />
         <OurServices />
         <RecentProjects />
         <Discover />
