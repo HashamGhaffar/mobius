@@ -5,7 +5,7 @@ import {
   OurServices,
   Projects,
   Discover,
-  FavoriteClients,
+  Clients,
   JoinUs,
 } from "./home/sections/index";
 import { Footer } from "./_component";
@@ -19,7 +19,7 @@ export default function Home() {
         <OurServices />
         <Projects />
         <Discover />
-        <FavoriteClients />
+        <Clients />
         <JoinUs />
         <Footer />
       </div>

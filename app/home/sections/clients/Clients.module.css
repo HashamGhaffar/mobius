@@ -1,6 +1,8 @@
 .main {
   padding: 120px 0px;
-  /* overflow-x: auto; */
+  background-image: url(../../../_assets//pngs/backgroundClients.png);
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .textCenter {
@@ -26,7 +28,6 @@
   overflow-x: auto;
   scrollbar-width: none;
   margin: 0 20px 0 20px;
-
 }
 
 @media (max-width: 992px) {

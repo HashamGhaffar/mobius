@@ -3,7 +3,7 @@ import AboutUs from "./aboutUs/AboutUs";
 import OurServices from "./ourServices/OurServices";
 import Projects from "./projects/Projects";
 import Discover from "./discover/Discover";
-import FavoriteClients from "./favoriteClients/FavoriteClients";
+import Clients from "./clients/Clients";
 import JoinUs from "./joinUs/JoinUs";
 
 export {
@@ -12,6 +12,6 @@ export {
   OurServices,
   Projects,
   Discover,
-  FavoriteClients,
+  Clients,
   JoinUs,
 };

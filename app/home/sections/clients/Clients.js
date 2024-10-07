@@ -3,8 +3,9 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import pngs from "@/app/_assets/pngs";
 import { Typography, ClintCard } from "../../../_component/index";
+import svgs from "@/app/_assets/pngs";
 
-export default function FavoriteClients() {
+export default function Clients() {
   return (
     <>
       <section className={styles.main}>

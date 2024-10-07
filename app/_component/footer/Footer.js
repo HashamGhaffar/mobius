@@ -1,11 +1,10 @@
 import styles from "./Footer.module.css";
 
-import svgs from "@/app/_assets/svgs/index"
+import svgs from "@/app/_assets/svgs/index";
 import Image from "next/image";
 import { Typography, Button } from "../../_component/index";
 
 export default function Footer() {
-
   return (
     <>
       <section>
@@ -14,7 +13,7 @@ export default function Footer() {
             <ul className={styles.list}>
               <li className={styles.hedder}>
                 <Typography
-                  style={{ fontWeight: 400, color: "white", }}
+                  style={{ fontWeight: 400, color: "white" }}
                   variant="tertiaryTypography"
                   typography="Get in Touch"
                 />
@@ -63,7 +62,7 @@ export default function Footer() {
             <ul className={`${styles.list} ${styles.Address}`}>
               <li>
                 <Typography
-                  style={{ fontWeight: 400, color: "white", }}
+                  style={{ fontWeight: 400, color: "white" }}
                   variant="tertiaryTypography"
                   typography="Address"
                 />
@@ -83,7 +82,7 @@ export default function Footer() {
             <ul className={`${styles.list} ${styles.Studio}`}>
               <li>
                 <Typography
-                  style={{ fontWeight: 400, color: "white", }}
+                  style={{ fontWeight: 400, color: "white" }}
                   variant="tertiaryTypography"
                   typography="Studio"
                 />
@@ -91,7 +90,9 @@ export default function Footer() {
               <li>
                 <hr className={styles.footerHr} />
               </li>
-              <li className={`${styles.hedderDescription} ${styles.desktopSpecificDescription}`}>
+              <li
+                className={`${styles.hedderDescription} ${styles.desktopSpecificDescription}`}
+              >
                 <Typography
                   variant="secondaryTypography"
                   textColor="#6E6E6B"
@@ -99,17 +100,41 @@ export default function Footer() {
                 />
               </li>
               <ul className={styles.mobileSpecificDescription}>
-                <li>Terms of Condition</li>
-                <li>Privacy Policy</li>
-                <li>Career</li>
-                <li>Contact Us</li>
+                <li>
+                  <Typography
+                    variant="tertiaryTypography"
+                    textColor="#6E6E6B"
+                    typography="Terms of Condition"
+                  />
+                </li>
+                <li>
+                  <Typography
+                    variant="tertiaryTypography"
+                    textColor="#6E6E6B"
+                    typography="Privacy Policy"
+                  />
+                </li>
+                <li>
+                  <Typography
+                    variant="tertiaryTypography"
+                    textColor="#6E6E6B"
+                    typography="Career"
+                  />
+                </li>
+                <li>
+                  <Typography
+                    variant="tertiaryTypography"
+                    textColor="#6E6E6B"
+                    typography="Contact Us"
+                  />
+                </li>
               </ul>
             </ul>
 
             <ul className={`${styles.list} ${styles.Newsletter}`}>
               <li>
                 <Typography
-                  style={{ fontWeight: 400, color: "white", }}
+                  style={{ fontWeight: 400, color: "white" }}
                   variant="tertiaryTypography"
                   typography="Newsletter"
                 />
@@ -128,25 +153,35 @@ export default function Footer() {
                 />
               </li>
               <li>
-                <input className={styles.emailInput} placeholder="Enter your email" type="email" />
+                <input
+                  className={styles.emailInput}
+                  placeholder="Enter your email"
+                  type="email"
+                />
               </li>
-              <li style={{ float: "right", marginTop: "30px" }}><Button text="Submit" /></li>
+              <li style={{ float: "right", marginTop: "30px" }}>
+                <Button text="Submit" />
+              </li>
             </ul>
           </footer>
-
 
           <div className={styles.mediaLinks}>
             <Image src={svgs.Behance} height={31} width={31} alt="Behance" />
             <Image src={svgs.Dribbble} height={31} width={31} alt="Dribbble" />
             <Image src={svgs.facebook} height={31} width={31} alt="facebook" />
-            <Image src={svgs.instagram} height={31} width={31} alt="instagram" />
+            <Image
+              src={svgs.instagram}
+              height={31}
+              width={31}
+              alt="instagram"
+            />
             <Image src={svgs.linkedIn} height={31} width={31} alt="linkedIn" />
           </div>
-
         </div>
-        <p className={styles.Copyright}>© 2023 MMS | Mobius Motion Studio. All rights reserved. </p>
+        <p className={styles.Copyright}>
+          © 2023 MMS | Mobius Motion Studio. All rights reserved.{" "}
+        </p>
       </section>
-
     </>
   );
 }
