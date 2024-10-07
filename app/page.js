@@ -3,7 +3,7 @@ import {
   HeroSection,
   AboutUs,
   OurServices,
-  RecentProjects,
+  Projects,
   Discover,
   FavoriteClients,
   JoinUs,
@@ -17,7 +17,7 @@ export default function Home() {
         <HeroSection />
         <AboutUs />
         <OurServices />
-        <RecentProjects />
+        <Projects />
         <Discover />
         <FavoriteClients />
         <JoinUs />
