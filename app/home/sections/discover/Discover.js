@@ -5,7 +5,6 @@ export default function Discover() {
   return (
     <section>
       <div className={styles.boxTypography}>
-        {/* textual and button boc */}
         <div className={styles.hedding}>
           <Typography
             element="h1"
@@ -15,7 +14,6 @@ export default function Discover() {
           />
         </div>
       </div>
-      {/* project detail  */}
       <div className={styles.projectDetail}>
         <div className={styles.projectNum}>
           <p>145+</p>

@@ -1,14 +1,13 @@
 // import styles from "./home.module.css";
 import {
   HeroSection,
-  ImpracticalityToReality,
+  AboutUs,
   OurServices,
-  RecentProjects,
+  Projects,
   Discover,
-  FavoriteClients,
+  Clients,
   JoinUs,
-} from "./home/sections/index"
-
+} from "./home/sections/index";
 import { Footer } from "./_component";
 
 export default function Home() {
@@ -16,11 +15,11 @@ export default function Home() {
     <>
       <div>
         <HeroSection />
-        <ImpracticalityToReality />
+        <AboutUs />
         <OurServices />
-        <RecentProjects />
+        <Projects />
         <Discover />
-        <FavoriteClients />
+        <Clients />
         <JoinUs />
         <Footer />
       </div>

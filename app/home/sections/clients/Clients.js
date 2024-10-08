@@ -1,10 +1,11 @@
-import styles from "./FavoriteClients.module.css";
+import styles from "./Clients.module.css";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import pngs from "@/app/_assets/pngs";
 import { Typography, ClintCard } from "../../../_component/index";
+import svgs from "@/app/_assets/pngs";
 
-export default function FavoriteClients() {
+export default function Clients() {
   return (
     <>
       <section className={styles.main}>
@@ -23,16 +24,8 @@ export default function FavoriteClients() {
 
           {/* markey */}
           <Marquee className={styles.marquee}>
-            <Image
-              className={styles.logoWrap}
-              src={pngs.MAvancus}
-              alt="icon"
-            />
-            <Image
-              className={styles.logoWrap}
-              src={pngs.MElivate}
-              alt="icon"
-            />
+            <Image className={styles.logoWrap} src={pngs.MAvancus} alt="icon" />
+            <Image className={styles.logoWrap} src={pngs.MElivate} alt="icon" />
             <Image
               className={styles.logoWrap}
               src={pngs.MFoneStar}
@@ -48,11 +41,7 @@ export default function FavoriteClients() {
               src={pngs.MLightOne}
               alt="icon"
             />
-            <Image
-              className={styles.logoWrap}
-              src={pngs.MLuna}
-              alt="icon"
-            />
+            <Image className={styles.logoWrap} src={pngs.MLuna} alt="icon" />
             <Image
               className={styles.logoWrap}
               src={pngs.MMetaleon}
@@ -63,16 +52,8 @@ export default function FavoriteClients() {
               src={pngs.MPillPuncher}
               alt="icon"
             />
-            <Image
-              className={styles.logoWrap}
-              src={pngs.MAvancus}
-              alt="icon"
-            />
-            <Image
-              className={styles.logoWrap}
-              src={pngs.MSony}
-              alt="icon"
-            />
+            <Image className={styles.logoWrap} src={pngs.MAvancus} alt="icon" />
+            <Image className={styles.logoWrap} src={pngs.MSony} alt="icon" />
           </Marquee>
 
           <div className={styles.textCenter}>

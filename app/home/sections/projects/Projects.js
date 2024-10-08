@@ -4,12 +4,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import styles from "./RecentProjects.module.css";
+import styles from "./Projects.module.css";
 import pngs from "@/app/_assets/pngs";
 
-import { Typography, RecentProjectsCard } from "../../../_component/index";
+import { Typography, ProjectsCard } from "../../../_component/index";
 
-export default function RecentProjects() {
+export default function Projects() {
   var settings = {
     dots: false,
     infinite: true,
@@ -58,31 +58,19 @@ export default function RecentProjects() {
           />
         </div>
         <Slider centerMode={true} centerPadding="20px" {...settings}>
-          <RecentProjectsCard imagePath={pngs.Sony} typography="sony" />
-          <RecentProjectsCard
+          <ProjectsCard imagePath={pngs.Sony} typography="sony" />
+          <ProjectsCard
             imagePath={pngs.PillPuncher}
             typography="Pill Puncher"
           />
-          <RecentProjectsCard
-            imagePath={pngs.Elivate}
-            typography="Elevate Beauty"
-          />
-          <RecentProjectsCard imagePath={pngs.FoneStar} typography="Fonestar" />
-          <RecentProjectsCard
-            imagePath={pngs.Avancus}
-            typography="Avancus Shoes"
-          />
-          <RecentProjectsCard
-            imagePath={pngs.FormulaZ}
-            typography="Formula Z"
-          />
-          <RecentProjectsCard imagePath={pngs.Luna} typography="Luna Tattoo" />
-          <RecentProjectsCard imagePath={pngs.Metaleon} typography="Metaleon" />
-          <RecentProjectsCard
-            imagePath={pngs.Houduo}
-            typography="Houduo Candle"
-          />
-          <RecentProjectsCard
+          <ProjectsCard imagePath={pngs.Elivate} typography="Elevate Beauty" />
+          <ProjectsCard imagePath={pngs.FoneStar} typography="Fonestar" />
+          <ProjectsCard imagePath={pngs.Avancus} typography="Avancus Shoes" />
+          <ProjectsCard imagePath={pngs.FormulaZ} typography="Formula Z" />
+          <ProjectsCard imagePath={pngs.Luna} typography="Luna Tattoo" />
+          <ProjectsCard imagePath={pngs.Metaleon} typography="Metaleon" />
+          <ProjectsCard imagePath={pngs.Houduo} typography="Houduo Candle" />
+          <ProjectsCard
             imagePath={pngs.LightOne}
             typography="Light One Playstation"
           />

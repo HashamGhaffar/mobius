@@ -11,13 +11,16 @@ export default function HeroSection() {
         <Navbar />
         <div className={styles.parent}>
           <div>
-            <Image
-              className={styles.heddingImage}
-              src={pngs.Heading}
-              width={533}
-              height={86}
-              alt="Picture of the author"
-            />
+            <div
+              className={styles.boxHeddingImage}
+              styles={{ width: "100%", height: "auto", maxWidth: "533px" }}
+            >
+              <Image
+                className={styles.heddingImage}
+                src={pngs.Heading}
+                alt="Picture of the author"
+              />
+            </div>
             <div className={styles.boxParagraph}>
               <Typography
                 variant="tertiaryTypography"

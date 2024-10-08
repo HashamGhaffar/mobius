@@ -21,8 +21,9 @@ import Sony from "./projects/sony.png";
 import Discover from "./Discover.png";
 import ToadWithBeer from "./toadWithBeer.png";
 import BgJoinUs from "./BgJoinUs.png";
+import BackgroundClients from "./backgroundClients.png";
 
-// Marquee images 
+// Marquee images
 import MAvancus from "./marquee/Avancus.png";
 import MElivate from "./marquee/Elevate.png";
 import MFoneStar from "./marquee/Fonestar.png";
@@ -43,6 +44,7 @@ const pngs = {
   Lenz,
   DarkSquareGridBackground,
   BulletsServicesList,
+  BackgroundClients,
 
   // slider images_10num
   Avancus,
@@ -60,7 +62,7 @@ const pngs = {
   ToadWithBeer,
   BgJoinUs,
 
-  // Marquee images 
+  // Marquee images
   MAvancus,
   MElivate,
   MFoneStar,
